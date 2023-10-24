@@ -101,7 +101,6 @@ function clearCardsBlock() {
 
 function saveImagesIntoLocalStorage(images) {
 	localStorage.setItem("images", images);
-	console.log("images saved");
 }
 
 function loadImagesFromLocalStorage() {
