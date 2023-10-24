@@ -1,0 +1,29 @@
+.cards {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 10px;
+	margin-top: 20px;
+}
+
+.card {
+	border: 1px solid black;
+	min-height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 250px;
+}
+
+img {
+	width: 250px;
+	height: 150px;
+}
+
+.error {
+	color: red;
+}
+
+.display-none {
+	display: none;
+}
